@@ -144,11 +144,9 @@ PMVC.View = function (model, rootObject) {
             var _json = {'title':'Справочник планет', 'href':'index.html'};
 
             dust.render('header_template', _json, function(err, out) {
-                console.log(out);
                 that.div_header.html(out);
             });
             dust.render('footer_template', _json, function(err, out) {
-                console.log(out);
                 that.div_footer.html(out);
             });
         }
