@@ -1,0 +1,18 @@
+<table class='info'>
+    <tr  class='header'>
+        <td colspan='3'><br/>{namerus} ({detail.name})<hr /</td>
+    </tr>
+    <tr>
+        <td rowspan='3' class='left'><img src = './img/{img}'/></td>
+        <td  class='center'>№ п/п: <span class='right'>{id}</span></td>
+    </tr>
+    <tr>
+        <td class='center'>Расстояние от солнца: <span class='right'>{dist}</span></td>
+    </tr>
+    <tr>
+        <td class='center'>Вес: <span class='right'>{weight}</span></td>
+    </tr>
+    <tr>
+        <td colspan='3'><hr /><div class = 'desc'>{desc}</div></td>
+        </tr>
+</table>

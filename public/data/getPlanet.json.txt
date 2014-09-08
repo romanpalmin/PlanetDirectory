@@ -1,0 +1,14 @@
+﻿{
+	"success": true,
+	"errors": [],
+	"data": [
+                { "id": 3,
+                    "name": "Earth",
+                    "namerus": "Земля",
+                    "dist": "300",
+                    "img": "earth.png",
+                    "weight": "3x1000кг",
+                    "desc": "Описание планеты Земля"
+                }
+		]
+}

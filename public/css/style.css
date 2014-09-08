@@ -1,0 +1,168 @@
+BODY {
+    background: #bfc8f2;
+    COLOR: Black;
+    font-size:8pt;
+    margin: 0;
+    padding: 0;
+    height:99%;
+    width:99%;
+}
+
+A {
+    font-family: verdana, arial, helvetica, sans-serif;
+    COLOR: #bfc8f2;
+    font-size:13pt;
+    text-decoration: none; /* Убираем подчеркивание */
+    border-bottom: 1px dashed; /* Добавляем свою линию */
+}
+
+#header{
+    width:100%;
+    min-height: 220px;
+    background: #08111f;
+    background-image: url(../img/sky2.png);
+    position:relative;
+    margin: 0;
+    padding: 0;
+
+    COLOR: #bfc8f2;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color: #608ba3;
+    border-bottom-width: 4px;
+}
+
+span.header{
+    background: #08111F;
+    border-bottom-style: none;
+    font-size:35pt;
+}
+
+
+#footer {
+    width:100%;
+    height: 20px;
+    position:fixed;
+    background: #242A3A;
+    bottom: 0;
+    color: #bfc8f2;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    border-top-style: solid;
+    border-top-color: #608ba3;
+    border-top-width: 4px;
+}
+
+#content {
+    background: #608ba3;
+    top: 160px;
+    left: 50%;
+    width: 650px;
+    height: 400px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -325px;
+    border: 1;
+    border-color:#608ba3;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 7px;  /* свойство для тех кто его поддерживает */
+    -moz-border-radius: 7px;  /* для firefox */
+    -webkit-border-radius: 7px;  /* для Safari и Chrome */
+}
+
+#master {
+    background: #c8ccd1;
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 29.3%;
+    overflow-y: auto;
+}
+
+table.master_table {
+    width: 100%;
+    font-size: 18pt;
+    border-collapse: collapse;
+}
+
+table.master_table td {
+    border: 1px solid #608ba3;
+    padding: 5px;
+}
+
+table.master_table tr:hover {
+    background: #f1f1f1;
+    cursor: pointer;
+}
+
+
+#detail {
+    background: #c8ccd1;
+    position: absolute;
+    top:0;
+    right:0;
+    height: 100%;
+    width: 70%;
+    /*display: none;*/
+}
+
+table.info{
+    background: #c8ccd1;
+    width:100%;
+    border-collapse: collapse;
+    font-size: 18pt;
+
+
+}
+
+hr{
+    color: #608ba3 ;
+}
+
+img{
+    border: 3px solid #608ba3;
+}
+
+
+
+table.info tr.header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+table.info td.center{
+    font-weight: bold;
+    font-size: 14pt;
+    text-align: left;
+}
+
+table.info span.right{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 14pt;
+    text-align: left;
+}
+
+table.info td.left{
+    text-align: center;
+    vertical-align: middle;
+}
+
+div.desc{
+    width:100%;
+    height:120px;
+    background: inherit;
+    overflow-y: scroll;
+    font-size: 12pt;
+}
+
+div.page404{
+    margin:0 auto 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 24pt;
+}

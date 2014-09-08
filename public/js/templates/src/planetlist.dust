@@ -1,0 +1,3 @@
+<table class=master_table>
+{#data}<tr class='rowselect' id ='{id}'><td>{namerus}</td></tr>{/data}
+</table>
