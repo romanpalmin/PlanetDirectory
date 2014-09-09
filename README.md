@@ -58,9 +58,9 @@ TODO список
 
 Файловая структура
 ------------------
-[PUBLIC]					# 
-  [CSS]						# 
-    style.css					# 	
-  [DATA]					# тестовые данные
-    getPlaneton.txt				# 
-    getPlanetson.txt				# 
+-- PUBLIC					# 
+----CSS						# 
+------style.css					# 	
+----DATA					# тестовые данные
+------getPlaneton.txt				# 
+------getPlanetson.txt				# 
