@@ -15,7 +15,7 @@
 
 Пример реализации
 ------
-http://dev.jromkin.ru/samples/PlanetDirectory/
+http://dev.romanpalmin.com/samples/PlanetDirectory/
 
 Реализация задачи
 -----------------
